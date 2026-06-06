@@ -1,7 +1,12 @@
 name: magisterka-ae
 
+channels:
+  - conda-forge
+  - defaults
+
 dependencies:
   - python=3.14
   - pip
+  - jupyter
   - pip:
       - -r requirements.txt

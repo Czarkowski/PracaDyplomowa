@@ -1,0 +1,7 @@
+name: magisterka-ae
+
+dependencies:
+  - python=3.14
+  - pip
+  - pip:
+      - -r requirements.txt
